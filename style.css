@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.container{
+    background: url(./background.png);
+    background-size: cover;
+    height: 120vh;
+   
+}
+.logo{
+    font-size: 40px;
+    margin: 40px 0px;
+    color: rgb(235, 235, 235);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 60px 30px;
+    font-size: 20px;
+}
+nav ul li a{
+    font-size: 20px;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.details h1{
+    font-size: 70px;
+    font-family:sans-serif, bold;
+    color: white;
+
+}
+.btn{
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 25px;
+
+}
+.btn-1{
+    border: none;
+    background: rgb(36, 35, 35);
+    color: white;
+}
+.btn-1:hover{
+    background: rgb(88, 85, 85);
+    transition-duration: 1s;
+}
+.btn-2{
+    background: none;
+    color: aliceblue;
+    border: 2px solid white;
+}
+.btn-2:hover{
+    background: white;
+    color: black;
+   transition-duration:1s ;
+}
+
+.image{
+    width: 80%;
+}
+/*services*/
+.section-title{
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+.main-div{
+    text-align: center;
+    
+}
+.service{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 50px 40px;
+}
+.cmn h1 {
+    margin: 30px 0px;
+}
+.cmn p{
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.all-plan{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 250px;
+
+}
+.cmn-plan{
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    border: 1px solid rgb(124, 12, 12);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px gray;
+}
+.cmn-plan h1{
+    font-size: 40px;
+    color: gray;
+
+
+}
+.cmn-plan h2{
+    font-size: 50px ;
+    color: rgb(4, 4, 163);
+}
+.cmn-plan p{
+    font-size: 25px;
+    padding: 10px;
+    color: gray;
+}
+.notice{
+    background-color: #5A45FC;
+    padding: 35px 54px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 250px;
+}
+.notice h1{
+    font-size: 60px;
+    padding: 0px 0px 8px;
+    font-family: sans-serif;
+
+}
+footer{
+    height: 200px;
+    
+
+}
+.footer {
+text-align: center;
+margin: 80px;
+    
+}
+.footer i{
+    margin: 50px;
+    color: #5A45FC;
+    
+}
